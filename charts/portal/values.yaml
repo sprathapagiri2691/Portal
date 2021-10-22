@@ -21,6 +21,8 @@ global:
   legacyDatabaseNames: false
   subdomainPrefix: dev-portal
   helpPage: https://techdocs.broadcom.com/us/en/ca-enterprise-software/layer7-api-management/api-developer-portal/
+  additionalLabels:
+    globalLabel: globalLabelTest
 # storageClass: "_"
 # schedulerName:
 # The saas flag should be left as is unless otherwise specified by support.
@@ -231,6 +233,8 @@ dispatcher:
     limits: {}
     # cpu: 500m
     # memory: 1024Mi
+  additionalLabels:
+    dispatcherLabel: dispatcherLabelTest
 # nodeSelector: {}
 # tolerations: []
 # affinity: {}

@@ -802,7 +802,7 @@ ingress-nginx:
 # MySQL Stable Chart values - https://github.com/bitnami/charts/tree/master/bitnami/mysql
 mysql:
   image:
-    tag: "8.0.26-debian-10-r78"
+    tag: "8.0.27-debian-10-r83"
   auth:
     username: portal
     existingSecret: database-secret
